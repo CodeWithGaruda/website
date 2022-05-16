@@ -148,15 +148,16 @@ body {
 .edu_title {
   font-size: xx-large;
   font-weight: 600;
-  color: rgb(203, 227, 228);
+  color: rgb(23, 117, 121);
 }
 section {
+  padding-top: 80px;
   font-family: "Times New Roman", Times, serif;
   font-size: 25px;
-  height: 100vh;
-  background-color: rgb(200, 238, 238);
+  height: fit-content;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
 }
-
 .scrollTop {
   font-weight: 400;
   font-size: xx-large;
