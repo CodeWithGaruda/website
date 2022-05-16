@@ -33,9 +33,9 @@
       </a>
       <div class="navbar-links">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact Me</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutMe">About</a></li>
+          <li><a href="#contactMe">Contact Me</a></li>
         </ul>
       </div>
     </nav>
@@ -48,8 +48,9 @@
         scroll down for more About me...........!
       </h1>
     </div>
-    <div onclick="scrollToTop()" class="scrollTop">🔝</div>
+
     <section class="aboutMe">
+      <a name="aboutMe"></a>
       <h1>About Me</h1>
       <h2>Java Devloper & Tech Enthusiastic</h2>
       I'm a Java developer with a keen interest in Microservices and API
@@ -69,25 +70,86 @@
       <p class="edu_title">Secondary School Certificate (SSC) - 10th 2013</p>
       NewEra High school , Khammam, Telangana
     </section>
+    <section class="contactMe">
+      <a name="contactMe"></a>
+      <h1>ContactMe</h1>
+      <div class="container py-4">
+        <!-- Bootstrap 5 starter form -->
+        <form id="contactForm">
+          <!-- Name input -->
+          <div class="mb-3">
+            <label class="form-label" for="name">Name</label>
+            <input
+              class="form-control"
+              id="name"
+              type="text"
+              placeholder="Name"
+            />
+          </div>
+
+          <!-- Email address input -->
+          <div class="mb-3">
+            <label class="form-label" for="emailAddress">Email Address</label>
+            <input
+              class="form-control"
+              id="emailAddress"
+              type="email"
+              placeholder="Email Address"
+            />
+          </div>
+
+          <!-- Message input -->
+          <div class="mb-3">
+            <label class="form-label" for="message">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              type="text"
+              placeholder="Message"
+              style="height: 10rem"
+            ></textarea>
+          </div>
+
+          <!-- Form submit button -->
+          <div class="d-grid">
+            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <div onclick="scrollToTop()" class="scrollTop">🔝</div>
     <div class="footer">
+      SocialMedia
       <a
         href="https://www.facebook.com/sanath.rayala/"
+        target="_blank"
         class="fa fa-facebook"
       ></a>
-      <a href="https://twitter.com/rayala_1" class="fa fa-twitter"></a>
+      <a
+        href="https://twitter.com/rayala_1"
+        target="_blank"
+        class="fa fa-twitter"
+      ></a>
+      <a
+        href="https://github.com/CodeWithGaruda"
+        target="_blank"
+        class="fa fa-github"
+      ></a>
       <a
         href="https://www.linkedin.com/in/sanath-rayala-949320189"
+        target="_blank"
         class="fa fa-linkedin"
       ></a>
       <a
         href="https://www.youtube.com/channel/UCTTmRLzaZPquhcAv0vdrs1A/featured"
+        target="_blank"
         class="fa fa-youtube"
       ></a>
       <a
         href="https://www.instagram.com/sanath_rayala/"
+        target="_blank"
         class="fa fa-instagram"
       ></a>
-      <a href="https://github.com/CodeWithGaruda" class="fa fa-github"></a>
     </div>
   </body>
 </html>

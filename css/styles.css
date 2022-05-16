@@ -113,9 +113,11 @@ body {
   width: 100%;
   background-color: rgb(37, 36, 36);
   align-items: center;
+  color: #ffffff;
+  font-size: xx-large;
 }
 .footer a {
-  padding: 10px;
+  padding: 5px;
 }
 .autoTyping {
   width: 100%;
@@ -136,7 +138,8 @@ body {
 .aboutMe {
   padding: 10px;
 }
-.aboutMe h1 {
+.aboutMe,
+.contactMe h1 {
   text-align: center;
 }
 .aboutMe h2 {
@@ -150,19 +153,28 @@ body {
 section {
   font-family: "Times New Roman", Times, serif;
   font-size: 25px;
+  height: 100vh;
   background-color: rgb(200, 238, 238);
 }
+section:nth-child(even) {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  height: 100vh;
+  background-color: rgb(126, 194, 194);
+}
 .scrollTop {
+  font-weight: 400;
+  font-size: xx-large;
   position: fixed;
   bottom: 70px;
   right: 30px;
-  padding: 10px 15px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 5px solid #fff;
+  padding: 10px;
+  background-color: #2db5b1;
+  border-radius: 15px solid #fff;
   cursor: pointer;
-  transition: 0.2s;
-  border-radius: 10px;
+  transition: 0.5s ease 0s;
+  border-radius: 30px;
 }
 .scrollTop:hover {
-  background-color: #757070;
+  background-color: #ffffff;
 }
