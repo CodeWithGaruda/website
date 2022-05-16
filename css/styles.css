@@ -19,6 +19,7 @@ body {
   top: 0;
   width: 100%;
   box-shadow: 6px 6px 6px 2px rgb(61, 66, 66);
+  z-index: 1;
 }
 
 .brand-title {
@@ -124,7 +125,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #2db5b1;
+  background-color: #ffffff;
 }
 .autoTyping h1 {
   font-size: 80px;
@@ -132,20 +133,22 @@ body {
   padding: 40px;
 }
 .dynamicText {
-  color: rgb(238, 255, 0);
+  color: rgb(238, 54, 54);
 }
-.aboutMe {
+.aboutMe,
+.contactMe {
   padding: 10px;
 }
 .aboutMe,
-.contactMe h1 {
+.contactMe,
+.project h1 {
   text-align: center;
 }
 
 .edu_title {
   font-size: xx-large;
   font-weight: 600;
-  color: cadetblue;
+  color: rgb(203, 227, 228);
 }
 section {
   font-family: "Times New Roman", Times, serif;
@@ -153,12 +156,7 @@ section {
   height: 100vh;
   background-color: rgb(200, 238, 238);
 }
-section:nth-child(even) {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 25px;
-  height: 100vh;
-  background-color: rgb(85, 158, 158);
-}
+
 .scrollTop {
   font-weight: 400;
   font-size: xx-large;
@@ -174,4 +172,9 @@ section:nth-child(even) {
 }
 .scrollTop:hover {
   background-color: #ffffff;
+}
+.projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
