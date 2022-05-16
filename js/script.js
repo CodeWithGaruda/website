@@ -12,7 +12,7 @@ let typed = new Typed(".dynamicText", {
     "Java Devloper",
     "Motivational Speaker",
     "Programmer",
-    "Tech Enthusist",
+    "Tech Enthusiast",
   ],
   typeSpeed: 150,
   backSpeed: 150,
