@@ -18,6 +18,7 @@ body {
   color: white;
   top: 0px;
   width: 100%;
+  box-shadow: 2px 2px 2px 1px rgb(61, 66, 66);
 }
 
 .brand-title {
