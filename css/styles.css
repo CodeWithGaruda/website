@@ -119,9 +119,10 @@ body {
   justify-content: center;
   background-color: rgb(209, 240, 241);
 }
-.autoTyping h2 {
+.autoTyping h1 {
   font-size: 80px;
   font-weight: 600;
+  padding: 40px;
 }
 .dynamicText {
   color: cornflowerblue;
