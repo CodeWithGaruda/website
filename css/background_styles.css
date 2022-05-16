@@ -1,9 +1,117 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 * {
-    font-family: Raleway;
+  font-family: Raleway;
 }
 
 html {
-    background-color: #DFDFDF;
+  background-color: #dfdfdf;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #050510;
+}
+.wrapper-custom {
+  width: 40%;
+  min-width: 500px;
+  position: relative;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+.container-custom {
+  width: 100%;
+  padding: 50px 30px;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 2px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+.container-custom * {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-weight: 500;
+}
+h2 {
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+.skills:not(:last-child) {
+  margin-bottom: 30px;
+}
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bar {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 7px 10px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+.bar div {
+  position: relative;
+  width: 0;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #badefc;
+  border: 1px solid #1c97fc;
+  box-shadow: 0 0 5px rgba(28, 151, 252, 0.6);
+}
+#html-bar {
+  animation: html-fill 3s forwards;
+}
+@keyframes html-fill {
+  100% {
+    width: 80%;
+  }
+}
+#css-bar {
+  animation: css-fill 3s forwards;
+}
+@keyframes css-fill {
+  100% {
+    width: 70%;
+  }
+}
+#js-bar {
+  animation: js-fill 3s forwards;
+}
+@keyframes js-fill {
+  100% {
+    width: 60%;
+  }
+}
+#java-bar {
+  animation: java-fill 3s forwards;
+}
+@keyframes java-fill {
+  100% {
+    width: 75%;
+  }
+}
+#spring-bar {
+  animation: spring-fill 3s forwards;
+}
+@keyframes spring-fill {
+  100% {
+    width: 60%;
+  }
+}
+#sql-bar {
+  animation: sql-fill 3s forwards;
+}
+@keyframes sql-fill {
+  100% {
+    width: 70%;
+  }
 }
