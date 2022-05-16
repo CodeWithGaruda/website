@@ -14,8 +14,8 @@ let typed = new Typed(".dynamicText", {
     "Programmer",
     "Tech Enthusiast",
   ],
-  typeSpeed: 150,
-  backSpeed: 150,
+  typeSpeed: 45,
+  backSpeed: 45,
   loop: true,
 });
 
