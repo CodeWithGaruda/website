@@ -18,3 +18,7 @@ let typed = new Typed(".dynamicText", {
   backSpeed: 150,
   loop: true,
 });
+
+function scrollToTop() {
+  window.scrollTo(0, 0);
+}
