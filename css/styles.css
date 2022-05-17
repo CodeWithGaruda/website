@@ -121,7 +121,7 @@ footer
   background-color: rgb(37, 36, 36);
   align-items: center;
   color: #ffffff;
-  font-size: xx-large;
+  font-size: 35px;
 }
 .footer a {
   padding: 5px;
@@ -170,7 +170,7 @@ projects bootstrap5 cards
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 30px;
+  padding: 150px;
 }
 /*
 sections
@@ -182,25 +182,10 @@ section {
   color: rgb(0, 0, 0);
   text-align: center;
 }
-.edu_title {
+section .edu_title {
   font-size: large;
   font-weight: 700;
   color: rgb(14, 87, 90);
-}
-/*
-resume button
-*/
-#download-resume-button {
-  text-decoration: none;
-  background-color: #ffffff;
-  color: black;
-  border: solid rgb(0, 0, 0);
-  border-radius: 10px;
-  padding: 5px;
-}
-#download-resume-button:hover {
-  background-color: #000000;
-  color: #fff;
 }
 /*
 quote
@@ -211,5 +196,6 @@ quote
 }
 /*about me section */
 section .aboutMe {
-  padding: 30px;
+  padding: 20px;
+  font-size: medium;
 }
