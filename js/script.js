@@ -22,3 +22,7 @@ let typed = new Typed(".dynamicText", {
 function scrollToTop() {
   window.scrollTo(0, 0);
 }
+
+function serviceNotAvailable() {
+  alert("sorry for the inconvinience service not available as of now");
+}

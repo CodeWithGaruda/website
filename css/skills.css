@@ -3,6 +3,7 @@ skills
 */
 .wrapper-custom {
   width: 70%;
+  height: 80vh;
   min-width: 650px;
   position: relative;
   transform: translate(-50%, -50%);
