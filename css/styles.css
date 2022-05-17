@@ -1,3 +1,7 @@
+/*
+body
+*/
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -6,9 +10,10 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(212, 215, 218);
 }
-
+/*
+navbar
+*/
 .navbar-custom {
   display: flex;
   position: fixed;
@@ -103,7 +108,9 @@ body {
     display: flex;
   }
 }
-
+/*
+footer
+*/
 .footer {
   display: flex;
   justify-content: flex-end;
@@ -119,13 +126,18 @@ body {
 .footer a {
   padding: 5px;
 }
+/*
+home autotyping text
+dynamic script
+*/
 .autoTyping {
   width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #deeef8;
+  background-color: #ffffff;
+  color: #000000;
 }
 .autoTyping h1 {
   font-size: 80px;
@@ -133,33 +145,11 @@ body {
   padding: 40px;
 }
 .dynamicText {
-  color: rgb(238, 54, 54);
+  color: rgb(255, 0, 0);
 }
-.aboutMe,
-.contactMe {
-  padding: 10px;
-}
-.aboutMe,
-.contactMe,
-.project h1 {
-  text-align: center;
-}
-
-.edu_title {
-  font-size: xx-large;
-  font-weight: 600;
-  color: rgb(23, 117, 121);
-}
-section {
-  width: 100%;
-  padding-top: 80px;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 25px;
-  height: 100vh;
-  background-color: rgb(230, 215, 215);
-  color: rgb(0, 0, 0);
-}
-
+/*
+scroll to top button
+*/
 .scrollTop {
   font-weight: 400;
   font-size: xx-large;
@@ -173,12 +163,53 @@ section {
   transition: 0.5s ease 0s;
   border-radius: 30px;
 }
-.scrollTop:hover {
-  background-color: #ff4f4f;
-}
+/*
+projects bootstrap5 cards
+*/
 .projects {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 30px;
+}
+/*
+sections
+*/
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.edu_title {
+  font-size: large;
+  font-weight: 700;
+  color: rgb(14, 87, 90);
+}
+/*
+resume button
+*/
+#download-resume-button {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: black;
+  border: solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 5px;
+}
+#download-resume-button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+/*
+quote
+*/
+#quote {
+  font-size: xx-large;
+  font-weight: 800;
+}
+/*about me section */
+section .aboutMe {
   padding: 30px;
 }

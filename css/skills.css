@@ -1,0 +1,99 @@
+/*
+skills
+*/
+.wrapper-custom {
+  width: 70%;
+  min-width: 650px;
+  position: relative;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+.container-custom {
+  width: 100%;
+  padding: 50px 30px;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 2px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+.container-custom * {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-weight: 500;
+}
+.skills:not(:last-child) {
+  margin-bottom: 30px;
+}
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bar {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 7px 10px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+.bar div {
+  position: relative;
+  width: 0;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #badefc;
+  border: 1px solid #1c97fc;
+  box-shadow: 0 0 5px rgba(28, 151, 252, 0.6);
+}
+#devops-bar {
+  animation: devops-fill 5s forwards;
+}
+@keyframes devops-fill {
+  100% {
+    width: 60%;
+  }
+}
+#html-css-bar {
+  animation: html-css-fill 5s forwards;
+}
+@keyframes html-css-fill {
+  100% {
+    width: 60%;
+  }
+}
+#js-bar {
+  animation: js-fill 5s forwards;
+}
+@keyframes js-fill {
+  100% {
+    width: 50%;
+  }
+}
+#java-bar {
+  animation: java-fill 5s forwards;
+}
+@keyframes java-fill {
+  100% {
+    width: 75%;
+  }
+}
+#testing-bar {
+  animation: testing-fill 5s forwards;
+}
+@keyframes testing-fill {
+  100% {
+    width: 60%;
+  }
+}
+#sql-bar {
+  animation: sql-fill 5s forwards;
+}
+@keyframes sql-fill {
+  100% {
+    width: 70%;
+  }
+}
