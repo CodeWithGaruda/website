@@ -7,12 +7,12 @@ toggleButton.addEventListener("click", () => {
 
 let typed = new Typed(".dynamicText", {
   strings: [
-    "TechTrainer",
     "Youtuber",
-    "Java Devloper",
+    "Java Developer",
+    "Tech Enthusiast",
+    "TechTrainer",
     "Motivational Speaker",
     "Programmer",
-    "Tech Enthusiast",
   ],
   typeSpeed: 45,
   backSpeed: 45,
