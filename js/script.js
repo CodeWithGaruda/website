@@ -24,5 +24,5 @@ function scrollToTop() {
 }
 
 function serviceNotAvailable() {
-  alert("sorry for the inconvinience service not available as of now");
+  alert("Sorry for the inconvinience\nService not available as of now");
 }
