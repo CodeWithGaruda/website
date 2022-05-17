@@ -160,7 +160,7 @@ scroll to top button
   background-color: #ffffff;
   border-radius: 15px solid #fff;
   cursor: pointer;
-  transition: 0.5s ease 0s;
+  transition: 0.5s ease 1s;
   border-radius: 30px;
 }
 /*
