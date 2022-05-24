@@ -171,8 +171,10 @@ projects bootstrap5 cards
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  padding: 150px;
+  padding: 50px;
+  height: 100vh;
 }
+
 /*
 sections
 */
