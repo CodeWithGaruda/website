@@ -24,9 +24,6 @@ skills
   color: #000000;
   font-weight: 500;
 }
-.skills:not(:last-child) {
-  margin-bottom: 30px;
-}
 .details {
   width: 100%;
   display: flex;

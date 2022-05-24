@@ -199,3 +199,30 @@ section .aboutMe {
   padding: 20px;
   font-size: medium;
 }
+/*
+image-description
+*/
+.image-description {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.pic * {
+  height: 314px;
+  width: 252px;
+}
+.c1 {
+  width: 65%;
+}
+.desc {
+  font-size: larger;
+}
+.get-in-touch {
+  font-size: medium;
+}
+
+section:nth-child(even) {
+  background-color: rgb(242, 245, 247);
+}
