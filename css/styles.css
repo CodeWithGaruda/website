@@ -170,6 +170,7 @@ projects bootstrap5 cards
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   padding: 150px;
 }
 /*
@@ -212,6 +213,8 @@ image-description
 .pic * {
   height: 314px;
   width: 252px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px #555;
 }
 .c1 {
   width: 65%;
